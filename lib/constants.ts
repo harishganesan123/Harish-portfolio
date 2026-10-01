@@ -49,6 +49,18 @@ export const experiences: Experience[] = [
     ],
     technologies: ['Python', 'AI/ML', 'LLMs', 'AI Automation', 'HeyGen'],
   },
+  {
+    title: 'Networking & Wi-Fi Intern',
+    company: 'VVDN Technologies Pvt. Ltd.',
+    location: '—',
+    startDate: '1 Month',
+    endDate: 'Completed',
+    description: [
+      'Worked as an intern in the Networking and Wi-Fi domain for one month.',
+      'Gained practical exposure to networking and wireless connectivity concepts in a professional engineering environment.',
+    ],
+    technologies: ['Networking', 'Wi-Fi'],
+  },
 ];
 
 export type Project = {
@@ -125,12 +137,42 @@ export type Certificate = {
 };
 
 export const certificates: Certificate[] = [
-  { title: 'Reinforcement Learning', issuer: 'HCL GUVI', date: '2026' },
-  { title: 'Data Analytics and Machine Learning for IoT', issuer: 'HCL GUVI', date: '2026' },
-  { title: 'Data Wrangling and Analysis', issuer: 'HCL GUVI', date: '2026' },
-  { title: 'Mastering MySQL', issuer: 'HCL GUVI', date: '2026' },
-  { title: 'AWS AI Practitioner Challenge', issuer: 'Udacity', date: '2026' },
-  { title: 'Introduction to Data Science with Python', issuer: 'Simplilearn', date: '2025' },
+  {
+    title: 'Reinforcement Learning',
+    issuer: 'HCL GUVI',
+    date: '2026',
+    url: 'https://www.guvi.in/share-certificate/r883nYp341736CXF33',
+  },
+  {
+    title: 'Data Analytics and Machine Learning for IoT',
+    issuer: 'HCL GUVI',
+    date: '2026',
+    url: 'https://www.guvi.in/share-certificate/1M700kR2i67hP5O7u8',
+  },
+  {
+    title: 'Data Wrangling and Analysis',
+    issuer: 'HCL GUVI',
+    date: '2026',
+    url: 'https://www.guvi.in/share-certificate/977brD7a51d67Q511N',
+  },
+  {
+    title: 'Mastering MySQL',
+    issuer: 'HCL GUVI',
+    date: '2026',
+    url: 'https://www.guvi.in/share-certificate/10OF9760752KXe116Z',
+  },
+  {
+    title: 'AWS AI Practitioner Challenge',
+    issuer: 'Udacity',
+    date: '2026',
+    url: 'https://www.udacity.com/certificate/e/3a0a8bc6-390b-11f1-b19f-4f17b75e5bab',
+  },
+  {
+    title: 'Introduction to Data Science with Python',
+    issuer: 'Simplilearn',
+    date: '2025',
+    url: 'https://simpli-web.app.link/e/jHcKAyIoS6b',
+  },
 ];
 
 export type Skill = {
