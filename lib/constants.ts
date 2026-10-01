@@ -125,6 +125,30 @@ export const education: Education[] = [
       'Selected as Subject Matter Expert (SME) — uCertify through the university campus placement process, 2026.',
     ],
   },
+  {
+    degree: 'Class XII',
+    field: 'CBSE',
+    institution: 'Anugragha International School',
+    location: '—',
+    startDate: '—',
+    endDate: 'Completed',
+    gpa: '88.8%',
+    achievements: [
+      'CBSE Board',
+    ],
+  },
+  {
+    degree: 'Class X',
+    field: 'CBSE',
+    institution: 'Anugragha International School',
+    location: '—',
+    startDate: '—',
+    endDate: 'Completed',
+    gpa: '92.9%',
+    achievements: [
+      'CBSE Board',
+    ],
+  },
 ];
 
 export type Certificate = {
