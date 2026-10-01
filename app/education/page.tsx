@@ -46,7 +46,7 @@ export default function EducationPage() {
 											</div>
 											{edu.gpa && (
 												<p className="text-lg font-semibold mt-2 md:mt-0">
-													GPA: {edu.gpa}
+													{edu.degree === 'B.Tech.' ? 'GPA' : 'Percentage'}: {edu.gpa}
 												</p>
 											)}
 										</div>
