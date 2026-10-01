@@ -56,7 +56,7 @@
 
   .card-gradient::before {
     content: '';
-    @apply absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/12 opacity-0 transition-opacity duration-300;
+    @apply absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10 opacity-0 transition-opacity duration-300;
   }
 
   .card-gradient:hover::before { @apply opacity-100; }
