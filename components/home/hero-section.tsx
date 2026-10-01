@@ -20,7 +20,7 @@ export function HeroSection() {
           animate="show"
           className="max-w-4xl"
         >
-          <motion.div variants={fadeIn('up', 0.1)} className="mb-6 flex flex-col items-start gap-5 sm:flex-row sm:items-center">\n            <img src="/profile.jpg" alt="Harish G" className="h-24 w-24 rounded-2xl border border-primary/30 object-cover shadow-lg" />\n            <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-primary">
+          <motion.div variants={fadeIn('up', 0.1)} className="mb-6 flex flex-col items-start gap-5 sm:flex-row sm:items-center">\n            <img src="/IMG-20260924-WA0017.jpg.jpeg" alt="Harish G" className="h-24 w-24 rounded-2xl border border-primary/30 object-cover shadow-lg" />\n            <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm text-primary">
             <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
               AI & Data Science Intern · AI Engineer in the Making\n            </div>\n          </motion.div>
 
