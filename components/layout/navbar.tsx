@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { X, Menu, ChevronDown } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 import { siteConfig } from '@/lib/constants';
 import { Button } from '@/components/ui/button';
@@ -13,12 +13,6 @@ import {
 	SheetContent,
 	SheetTrigger,
 } from '@/components/ui/sheet';
-import {
-	DropdownMenu,
-	DropdownMenuContent,
-	DropdownMenuItem,
-	DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
 
 export function Navbar() {
 	const [isScrolled, setIsScrolled] = useState(false);
@@ -44,12 +38,7 @@ export function Navbar() {
 			<div className="container flex h-16 items-center justify-between py-4">
 				<div className="flex items-center gap-6 md:gap-10">
 					<Link href="/" className="flex items-center space-x-2">
-						<motion.div
-							whileHover={{ scale: 1.05 }}
-							className="font-bold text-2xl text-gradient"
-						>
-							Portfolio
-						</motion.div>
+						<motion.div whileHover={{ scale: 1.05 }} className="font-bold text-2xl text-gradient">Harish G</motion.div>
 					</Link>
 					<nav className="hidden md:flex gap-6">
 						{siteConfig.mainNav.map((item) => (
@@ -77,7 +66,7 @@ export function Navbar() {
 						<SheetContent className="flex flex-col p-6">
 							<div className="flex items-center justify-between mb-8">
 								<Link href="/" className="flex items-center space-x-2">
-									<span className="font-bold text-2xl text-gradient">Portfolio</span>
+									<span className="font-bold text-2xl text-gradient">Harish G</span>
 								</Link>
 							</div>
 							<nav className="flex flex-col gap-4">
@@ -92,33 +81,7 @@ export function Navbar() {
 									</Link>
 								))}
 							</nav>
-							<div className="mt-auto pt-4">
-								<DropdownMenu>
-									<DropdownMenuTrigger asChild>
-										<Button variant="outline" className="w-full justify-between">
-											Social Links
-											<ChevronDown className="h-4 w-4 ml-2" />
-										</Button>
-									</DropdownMenuTrigger>
-									<DropdownMenuContent align="end">
-										<DropdownMenuItem asChild>
-											<Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
-												GitHub
-											</Link>
-										</DropdownMenuItem>
-										<DropdownMenuItem asChild>
-											<Link href={siteConfig.links.linkedin} target="_blank" rel="noreferrer">
-												LinkedIn
-											</Link>
-										</DropdownMenuItem>
-										<DropdownMenuItem asChild>
-											<Link href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
-												Twitter
-											</Link>
-										</DropdownMenuItem>
-									</DropdownMenuContent>
-								</DropdownMenu>
-							</div>
+
 						</SheetContent>
 					</Sheet>
 				</div>
