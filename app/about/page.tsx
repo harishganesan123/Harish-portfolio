@@ -12,7 +12,7 @@ export default function AboutPage() {
     <div className="py-16 md:py-24">
       <div className="container">
         <motion.div variants={staggerContainer()} initial="hidden" animate="show" className="max-w-5xl mx-auto">
-          <motion.div variants={fadeIn('down', 0.1)} className="mb-12">
+          <motion.div variants={fadeIn('down', 0.1)} className="mb-12">\n            <img src="https://avatars.githubusercontent.com/u/263140313?v=4" alt="Harish G" className="mb-8 h-28 w-28 rounded-2xl border border-primary/30 object-cover shadow-lg" />
             <p className="text-primary font-medium mb-3">ABOUT HARISH G</p>
             <h1 className="text-4xl md:text-5xl font-bold">AI-focused builder with a practical engineering mindset.</h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-3xl leading-relaxed">
