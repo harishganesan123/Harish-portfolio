@@ -28,7 +28,7 @@ export default function ExperiencePage() {
 						variants={fadeIn('down', 0.3)}
 						className="text-lg text-muted-foreground mb-12"
 					>
-						My journey through various roles and projects in the engineering field.
+						My experience across AI, Data Science, educational technology and intelligent automation.
 					</motion.p>
 
 					<div className="space-y-8">
