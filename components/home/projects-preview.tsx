@@ -61,18 +61,18 @@ export function ProjectsPreview() {
 								<CardFooter className="p-6 pt-0 gap-2">
 									{project.link && (
 										<Button size="sm" variant="outline" asChild>
-											<Link href={project.link} target="_blank" rel="noreferrer">
+											<a href={project.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
 												<ExternalLink className="h-4 w-4 mr-2" />
 												Demo
-											</Link>
+											</a>
 										</Button>
 									)}
 									{project.repo && (
 										<Button size="sm" variant="outline" asChild>
-											<Link href={project.repo} target="_blank" rel="noreferrer">
+											<a href={project.repo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
 												<Github className="h-4 w-4 mr-2" />
 												Repo
-											</Link>
+											</a>
 										</Button>
 									)}
 								</CardFooter>
