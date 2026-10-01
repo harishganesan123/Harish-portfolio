@@ -4,18 +4,18 @@
 
 @layer base {
   :root {
-    --background: 222 47% 7%;
+    --background: 222 42% 10%;
     --foreground: 210 40% 98%;
-    --card: 222 39% 10%;
+    --card: 222 36% 14%;
     --card-foreground: 210 40% 98%;
-    --popover: 222 47% 7%;
+    --popover: 222 42% 10%;
     --popover-foreground: 210 40% 98%;
     --primary: 199 89% 58%;
-    --primary-foreground: 222 47% 7%;
+    --primary-foreground: 222 42% 10%;
     --secondary: 263 70% 66%;
     --secondary-foreground: 210 40% 98%;
     --accent: 173 80% 45%;
-    --accent-foreground: 222 47% 7%;
+    --accent-foreground: 222 42% 10%;
     --muted: 222 25% 15%;
     --muted-foreground: 215 20% 68%;
     --destructive: 0 84.2% 60.2%;
@@ -56,7 +56,7 @@
 
   .card-gradient::before {
     content: '';
-    @apply absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10 opacity-0 transition-opacity duration-300;
+    @apply absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/12 opacity-0 transition-opacity duration-300;
   }
 
   .card-gradient:hover::before { @apply opacity-100; }
